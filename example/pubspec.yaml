@@ -1,0 +1,17 @@
+name: water_example
+description: An example of the `water` package
+version: 1.0.0
+homepage: https://github.com/arnemolland/water
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  bloc: ^3.0.0-dev.1
+  flutter_bloc: ^3.0.0-dev.1
+
+  hydrated_bloc: ^3.0.0-dev.1
+  water:
+    path: ../
