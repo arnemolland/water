@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.0+1
+
+- Fixed wrong homepage
+
 ## 1.0.0
 
 - Added changelog
