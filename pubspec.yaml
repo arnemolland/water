@@ -1,6 +1,6 @@
 name: water
 description: An implementation of HydratedStorage using Hive, a fast and lightweight key-value database
-version: 1.0.0+1
+version: 1.0.0+2
 homepage: https://github.com/arnemolland/water
 
 environment:

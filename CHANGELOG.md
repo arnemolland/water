@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.0+2
+
+- Fixed license badge
+
 ## 1.0.0+1
 
 - Fixed wrong homepage
