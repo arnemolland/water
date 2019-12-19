@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.1.0
+
+- Added WaterDelegate, and extension of HydratedBlocDelegate
+- Added support for desktop, web
+- Added macOS example target
+- Updated readme sample
+
 ## 1.0.0+2
 
 - Fixed license badge
