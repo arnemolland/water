@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.1.0+1
+
+- Moved linter config to dev_dependencies
+
 ## 1.1.0
 
 - Added WaterDelegate, and extension of HydratedBlocDelegate
