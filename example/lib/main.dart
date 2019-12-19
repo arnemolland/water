@@ -1,3 +1,5 @@
+import 'dart:io';
+
 import 'package:path_provider/path_provider.dart';
 import 'package:bloc/bloc.dart';
 import 'package:flutter/foundation.dart';
@@ -9,7 +11,7 @@ import 'package:water/water.dart';
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
-  var dir;
+  Directory dir;
   if (!kIsWeb) {
     dir = await getApplicationDocumentsDirectory();
   }
@@ -19,6 +21,7 @@ void main() async {
   runApp(Example());
 }
 
+/// Sample bloc with an [int] event and [int] state
 class SampleBloc extends HydratedBloc<int, int> {
   @override
   int get initialState => super.initialState ?? 0;
@@ -35,6 +38,7 @@ class SampleBloc extends HydratedBloc<int, int> {
   Map<String, dynamic> toJson(int state) => {'state': state};
 }
 
+/// Example counter app
 class Example extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -49,8 +53,7 @@ class Example extends StatelessWidget {
               ),
               floatingActionButton: FloatingActionButton(
                 child: Icon(Icons.add),
-                onPressed: () =>
-                    BlocProvider.of<SampleBloc>(context).add(state + 1),
+                onPressed: () => BlocProvider.of<SampleBloc>(context).add(state + 1),
               ),
             );
           },

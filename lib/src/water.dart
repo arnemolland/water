@@ -5,15 +5,15 @@ import 'package:hive/hive.dart';
 import 'package:hydrated_bloc/hydrated_bloc.dart';
 import 'package:path_provider/path_provider.dart';
 
-/// Implementation of `HydratedStorage` which uses `PathProvider` and `Hive`
+/// Implementation of [HydratedStorage] which uses `PathProvider` and `Hive`
 /// to persist and retrieve state changes from the local device.
 class Water implements HydratedStorage {
   static Water _instance;
   final Box _box;
 
-  /// Returns an instance of `Water`.
-  /// `storageDirectory` can optionally be provided.
-  /// By default, `Directory.current` is used.
+  /// Returns an instance of [Water].
+  /// [storageDirectory] can optionally be provided.
+  /// By default, [Directory.current] is used.
   static Future<Water> getInstance({
     Directory storageDirectory,
   }) async {
