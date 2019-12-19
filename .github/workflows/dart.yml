@@ -11,6 +11,6 @@ jobs:
       - name: Install dependencies
         run: flutter pub get
       - name: Run analyzer
-        run: flutter analyze
+        run: dartanalyzer lib
       - name: Run tests
         run: flutter test
