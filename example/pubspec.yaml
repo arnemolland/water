@@ -1,6 +1,6 @@
 name: water_example
 description: An example of the `water` package
-version: 1.1.0
+version: 1.1.1
 homepage: https://github.com/arnemolland/water
 
 environment:
@@ -10,14 +10,16 @@ dependencies:
   flutter:
     sdk: flutter
 
-  bloc: ^3.0.0-dev.1
-  flutter_bloc: ^3.0.0-dev.1
-  hydrated_bloc: ^3.0.0-dev.1
+  bloc: ^3.0.0
+  flutter_bloc: ^3.2.0
+  hydrated_bloc: ^3.0.0
+
   path_provider_fde:
     git:
       url: https://github.com/google/flutter-desktop-embedding
       path: plugins/flutter_plugins/path_provider_fde
       ref: 4340dec47dd88206ed421d8c1c9ecdff2ba02fff
+
   water:
     path: ../
 

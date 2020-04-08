@@ -10,7 +10,7 @@ void main() {
 
   group('water', () {
     const channel = MethodChannel('plugins.flutter.io/path_provider');
-    var response = '.';
+    const response = '.';
 
     Water water;
 
