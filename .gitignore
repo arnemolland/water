@@ -22,6 +22,10 @@
 *.iws
 .idea/
 
+.project
+.settings/
+.settings
+
 # dart/pub
 **/doc/api/
 .dart_tool/
