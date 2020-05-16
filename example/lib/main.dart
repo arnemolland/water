@@ -52,8 +52,9 @@ class Example extends StatelessWidget {
                 child: Text('$state'),
               ),
               floatingActionButton: FloatingActionButton(
-                child: Icon(Icons.add),
-                onPressed: () => BlocProvider.of<SampleBloc>(context).add(state + 1),
+                child: const Icon(Icons.add),
+                onPressed: () =>
+                    BlocProvider.of<SampleBloc>(context).add(state + 1),
               ),
             );
           },
