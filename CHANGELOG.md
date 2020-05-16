@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.2.0
+
+- Bump hydrated_bloc to ^4.0.0
+- Add new path_provider implementation with macOS support
+
 ## 1.1.1
 
 - Bumped dependencies
