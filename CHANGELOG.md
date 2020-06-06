@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.2.1
+
+- Bump dependencies
+
 ## 1.2.0
 
 - Bump hydrated_bloc to ^4.0.0
