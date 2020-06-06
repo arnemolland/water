@@ -17,15 +17,3 @@ With HydratedBlocDelegate
 ```dart
 BlocSupervisor.delegate = await WaterDelegate.build();
 ```
-
-## Desktop
-
-Until [path_provder](https://pub.dev/packages/path_provider) supports desktop, use this fork:
-
-```yaml
-path_provider_fde:
-  git:
-    url: https://github.com/google/flutter-desktop-embedding
-    path: plugins/flutter_plugins/path_provider_fde
-    ref: 4340dec47dd88206ed421d8c1c9ecdff2ba02fff
-```
